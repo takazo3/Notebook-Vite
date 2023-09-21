@@ -1,0 +1,61 @@
+button {
+  background: palegoldenrod;
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  padding: 4px 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: teal;
+}
+.delete-btn {
+  background: #eea2e0;
+  color: teal;
+  margin-left: 10px;
+}
+.app-sidebar {
+  width: 30%;
+  height: 100vh;
+  border-right: 5px dotted teal;
+}
+.app-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-bottom: 5px dotted teal;
+}
+.app-sidebar-header h1 {
+  color: teal;
+}
+
+.app-sidebar-notes {
+  height: culc(100vh-78px);
+  overflow-y: scroll;
+}
+
+
+.app-sidebar-note {
+  padding: 25px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.sidebar-note-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-sidebar-note p {
+  margin: 10px 0;
+}
+
+.app-sidebar-note small {
+  color: rgb(7, 68, 68);
+}
+.app-sidebar-note:hover {
+  background-color: palegoldenrod;
+}
+.app-sidebar-note.active{
+  background-color: palegoldenrod;
+}
